@@ -1,0 +1,27 @@
+{
+  "name": "app-token-manager",
+  "version": "1.0.0",
+  "description": "manage jwt and payload encryption ",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --declaration -p tsconfig.build.json"
+  },
+  "author": "AndrianinaH",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrianinaH/app-token-manager"
+  },
+  "keywords": [
+    "jwt"
+  ],
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/node": "^12.6.9",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "jwt-token-encrypt": "^1.0.4"
+  }
+}
